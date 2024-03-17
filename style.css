@@ -1,0 +1,134 @@
+*{
+    background: #1c1b23; 
+    background-image: url("fondos.png");
+    font-family: Ojuju;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.title{
+    color:rgb(236, 215, 145);
+    padding-left: 20%;
+    font-size:50px;
+}
+
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+
+}
+
+.text-area{
+    color:rgb(236, 215, 145);
+    margin-top: 90;
+    text-transform: lowercase;
+    border-radius: 100px;
+    text-align: center;
+    width: 800px;
+    height: 440px;
+
+}
+
+::placeholder{ 
+    color:rgb(236, 215, 145)}
+    .text-area:focus{
+        outline: none;
+    }
+
+
+.mensaje{
+    background-color: rgb(60, 59, 69);
+    width: 400px;
+    height: 640px;
+    top: 0px;
+    left: 900px;
+    right:100px;
+    border-radius: 32px;
+    background-image: url("Muñeco.png");
+    background-repeat: no-repeat;
+    background-position-y: 44%;
+    background-position-x: 40%;
+    color:rgb(236, 215, 145);
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
+    position: fixed;
+    filter: blur(1px);
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.btn{
+    display: flex;
+
+}
+
+.btnEncriptar{
+    border-radius: 50px;
+    background: black;
+    box-shadow: inset 11px 11px 22px #000000,
+                inset -11px -11px 22px #cbca90; 
+    color:rgb(186, 186, 183);
+    cursor: pointer;
+    height: 50px;
+    width: 328px;
+    text-align: center;
+
+}
+
+.btnDesencriptar{
+
+    color:rgb(186, 186, 183);
+    cursor: pointer;
+    height: 50px;
+    margin-left: 30px;
+    width: 328px;
+    text-align: center;
+    border-radius: 50px;
+    background: black;
+    box-shadow: inset 11px 11px 22px #000000,
+                inset -11px -11px 22px #cbca90; 
+}
+
+.btnCopiar{
+
+    color: rgb(186, 186, 183);
+    cursor: pointer;
+    height: 50px;
+    margin-left: 188px;
+    margin-top: 550px;
+    position: fixed;
+    width: 328px;
+    text-align: center;
+    border-radius: 50px;
+    background: black;
+    box-shadow: inset 11px 11px 22px #000000,
+    inset -11px -11px 22px #cbca90; 
+}
+
+.informacion{
+    color:rgb(186, 186, 183);
+    font-size: 14px;
+    margin-top: 32px;
+}
+
+.copyright{
+    color: rgb(186, 186, 183);
+    font-size: 12px;
+    text-align: center;
+}

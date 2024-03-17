@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <img src="logo_alura.png" alt="logo de alura" class="logo">
+        <h1 class="title" >ENCRIPTDOR ALURA</h1>
+    </header>
+    <main class="main">
+        <section>
+            <textarea class="text-area" cols="" rows="" placeholder="Ingrese El Texto a Encriptar"></textarea>
+            <div>
+               <h6 class="informacion">*solo letras minisculas y sin acentos*</h6> 
+            </div>
+            <div class="btn">
+                <button class="btnEncriptar" onclick="btnEncrip()">Encriptar</button>
+                <button class="btnDesencriptar" onclick="btnDesencrip()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea cols="20" rows="10" class="mensaje" id="mensaj">"texto no hallado"</textarea>
+            <div>
+                <button  id="btncop" class="btnCopiar" >Copiar</button>
+
+            </div>
+        </section>     
+    </main>
+    <footer>
+        <p class="copyright">&copy Copyright Encriptador Alura(Adalberto Medina Quintana) - 2024</p>
+    </footer>
+    
+<script src="Script.js" ></script>
+</body>
+</html>
